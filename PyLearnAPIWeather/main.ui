@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>469</width>
-    <height>712</height>
+    <width>320</width>
+    <height>532</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -21,12 +21,12 @@
    <bool>false</bool>
   </property>
   <property name="styleSheet">
-   <string notr="true">background-color:rgb(100,100, 100);</string>
+   <string notr="true">background-color:rgb(50, 85, 255);</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <layout class="QGridLayout" name="gridLayout_2">
     <item row="0" column="0">
-     <layout class="QGridLayout" name="gridLayout" rowstretch="7,0" columnstretch="7,0">
+     <layout class="QGridLayout" name="gridLayout" rowstretch="7" columnstretch="7,0">
       <item row="0" column="1">
        <widget class="QPushButton" name="search">
         <property name="sizePolicy">
@@ -43,7 +43,7 @@
          </font>
         </property>
         <property name="styleSheet">
-         <string notr="true">background-color:rgb(150,150, 150);</string>
+         <string notr="true">background-color:rgb(50,85, 255);</string>
         </property>
         <property name="text">
          <string>search</string>
@@ -60,15 +60,17 @@
         </property>
         <property name="font">
          <font>
-          <pointsize>30</pointsize>
-          <bold>true</bold>
+          <family>Times New Roman</family>
+          <pointsize>14</pointsize>
+          <italic>true</italic>
+          <bold>false</bold>
          </font>
         </property>
         <property name="styleSheet">
-         <string notr="true">background-color:rgb(170,170, 170);</string>
+         <string notr="true">background-color:rgb(50,85, 170);</string>
         </property>
         <property name="text">
-         <string/>
+         <string>mashhad</string>
         </property>
         <property name="readOnly">
          <bool>false</bool>
@@ -81,6 +83,12 @@
      <layout class="QVBoxLayout" name="verticalLayout">
       <item>
        <widget class="QLabel" name="label_4">
+        <property name="maximumSize">
+         <size>
+          <width>300</width>
+          <height>300</height>
+         </size>
+        </property>
         <property name="font">
          <font>
           <family>Times New Roman</family>
@@ -92,7 +100,7 @@
          <string/>
         </property>
         <property name="pixmap">
-         <pixmap>images/weather-forecast-16484.png</pixmap>
+         <pixmap>images/clouds-and-moon-16470.png</pixmap>
         </property>
         <property name="scaledContents">
          <bool>true</bool>
@@ -113,12 +121,12 @@
         <property name="font">
          <font>
           <family>Times New Roman</family>
-          <pointsize>28</pointsize>
+          <pointsize>48</pointsize>
           <italic>true</italic>
          </font>
         </property>
         <property name="text">
-         <string>25</string>
+         <string>10</string>
         </property>
         <property name="alignment">
          <set>Qt::AlignCenter</set>
@@ -154,7 +162,7 @@
            </font>
           </property>
           <property name="text">
-           <string>62%</string>
+           <string>71%</string>
           </property>
          </widget>
         </item>
@@ -171,7 +179,7 @@
            <enum>Qt::LeftToRight</enum>
           </property>
           <property name="text">
-           <string>4.2 km/h</string>
+           <string>13.9 km/h</string>
           </property>
           <property name="alignment">
            <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
@@ -189,7 +197,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>469</width>
+     <width>320</width>
      <height>19</height>
     </rect>
    </property>
